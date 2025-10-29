@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  margin-right: 10px;
+}
+
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-items: center;
+}
+
+/* This is the beginning of AI-generated code from OpenAI. This code helps my nav bar look cool, didn't copy and paste everything but just took the parts that I thought would look good on my website */
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: lightcyan;
+	padding: 15px;
+	border-radius: 25px;
+	color: indigo; 
+	letter-spacing: 2px;
+}
+/* This is the end of the AI-generated code */
+
+header {
+	font-family: 'Merriweather', serif;
+	color: indigo;
+	text-align: center;
+	letter-spacing: 3px;
+	word-spacing: 8px;
+}
+
+body {
+	font-family: 'Merriweather', serif;
+	background-color: azure;
+	color: indigo; 
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+p {
+	padding: 20px;
+}
+
+a {
+	text-decoration: underline;
+	color: indigo;
+	
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+dd {
+  margin-left: 20px; 
+  margin-bottom: 10px;
+}
